@@ -15,3 +15,6 @@ class FrenchDeck:
 
     def __getitem__(self, position):
         return self._cards[position]
+
+    def funcion_especial(self):
+        print("hola")
